@@ -1,0 +1,52 @@
+        .text_rodape {
+            text-align: center;
+            color: rgb(var(--color_1));
+            line-height: 1.79em;
+            font-size: 14px;
+        }
+        
+        .link_fim {
+            position: relative;
+            transition: top 0.5s ease-in-out;
+            margin-left: 27%;
+        }
+        
+        .links_rodape {
+            list-style: none;
+        }
+        
+        .roda_pe {
+            position: absolute;
+            top: 141%;
+            right: 41%;
+        }
+        
+        .p_text_inicio {
+            text-align: center;
+            line-height: 1.875em;
+            font-size: 30px;
+        }
+        
+        .h_text_bemvindo {
+            text-align: center;
+            line-height: 1.35em;
+            font-size: 40px;
+        }
+        
+        @media screen and (max-width: 900px) {
+            /* Estilos para telas menores ou iguais a 800 pixels de largura */
+            .roda_pe {
+                top: 123%;
+                right: 30%;
+            }
+            .imagen_bloc {
+                width: 82%;
+                height: 640px;
+            }
+            .p_text_inicio {
+                font-size: 15px;
+            }
+            .h_text_bemvindo {
+                margin-top: -93px;
+            }
+        }

@@ -1,0 +1,46 @@
+    @charset "UTF-8";
+    @import url("section.css");
+    @import url("rodape.css");
+     :root {
+        --color_1: 255, 255, 255;
+        --fill-layer-image-opacity: 0.75;
+        /* fonts*/
+        --font_1: 'Oswald', sans-serif;
+    }
+    
+    body {
+        background: rgba(22, 43, 111, 1);
+        font-family: var(--font_1);
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .inicial {
+        text-align: left;
+        line-height: 1.41em;
+        font-size: 22px;
+        color: rgb(var(--color_1));
+    }
+    
+    .inicio {
+        margin-left: 111px;
+        margin-top: 5%;
+        width: calc(100% - 60px - 60px);
+        --padding: 0px;
+        width: calc(100% - 60px - 60px);
+    }
+    
+    .arruma_inicio {
+        top: 29px;
+    }
+    
+    @media screen and (max-width: 900px) {
+        .arruma_inicio {
+            top: 32px;
+            margin-right: 40px;
+        }
+        .arruma_inicio_lagoa {
+            margin-left: 60px;
+        }
+    }

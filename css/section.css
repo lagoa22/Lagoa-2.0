@@ -1,0 +1,58 @@
+.link_inicial_lagoa {
+    text-decoration: none;
+}
+
+.div_link_inicio {
+    font-family: var(--font_1);
+    color: rgb(var(--color_1));
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-top: -78px;
+}
+
+.link_inicio {
+    position: relative;
+    transition: top 0.5s ease-in-out;
+    margin-left: -16%;
+}
+
+.link_inicio li {
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.img_inicio img {
+    margin: -3px;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.img_inicio_ico svg {
+    margin: -3px;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.imagen_bloc {
+    width: 86%;
+    margin-left: 8%;
+    border-radius: 20px;
+    opacity: var(--fill-layer-image-opacity);
+}
+
+.div_text_image {
+    color: white;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    transform: translate(-50%, -22%);
+}
+
+.link_inicial_loja {
+    text-decoration: none;
+    color: white;
+}
