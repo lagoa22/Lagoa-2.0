@@ -36,7 +36,7 @@
         @media screen and (max-width: 900px) {
             /* Estilos para telas menores ou iguais a 800 pixels de largura */
             .roda_pe {
-              top: 95%;
+              top: 100%;
               right: 18%;
                }                         
             .imagen_bloc {
