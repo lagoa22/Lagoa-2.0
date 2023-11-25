@@ -36,9 +36,9 @@
         @media screen and (max-width: 900px) {
             /* Estilos para telas menores ou iguais a 800 pixels de largura */
             .roda_pe {
-                top: 123%;
-                right: 30%;
-            }
+              top: 85%;
+              right: 18%;
+               }                         
             .imagen_bloc {
                 width: 82%;
                 height: 640px;
@@ -49,4 +49,12 @@
             .h_text_bemvindo {
                 margin-top: -93px;
             }
+            .div_link_inicio {   
+                transform: translate(17%, 1%);
+                display: flex;
+                align-items: center;
+                justify-content: center;}              
+             .div_text_image { 
+                 top: 293px;                  
+             }     
         }
