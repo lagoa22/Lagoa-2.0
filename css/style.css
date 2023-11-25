@@ -40,7 +40,8 @@
             top: 32px;
             margin-right: 40px;
         }
-        .arruma_inicio_lagoa {
-            margin-left: 60px;
-        }
+       .arruma_inicio_lagoa {
+    margin-left: 60px;
+    display: contents;
+}    
     }
